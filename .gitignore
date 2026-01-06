@@ -1,0 +1,24 @@
+# Windows Executables
+*.exe
+# Linux/Mac Executables
+*.out
+# Object files (intermediate compilation files)
+*.o
+*.obj
+
+# IDE & Editor Config
+.vscode/
+.vs/
+*.ipch
+*.db
+
+# OS Specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build Folders (Future proofing)
+bin/
+build/
+Debug/
+Release/
