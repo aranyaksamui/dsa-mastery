@@ -4,7 +4,7 @@ This repository contains the source code, notes, and problem solutions developed
 
 ## Project Structure
 
-The repository is organized by weekly topics. Each folder corresponds to a specific area of study and contains relevant C++ source files.
+The repository is organized by weekly topics. Each folder corresponds to a specific week and day of study and contains relevant C++ source files.
 
 ## Development Environment
 
