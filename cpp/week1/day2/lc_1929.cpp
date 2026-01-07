@@ -11,8 +11,8 @@ using namespace std;
 // This function speeds up input/output operations
 void fast_io()
 {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 }
 
 // Solution Class (Like LeetCode)
@@ -29,7 +29,7 @@ public:
 
     void solve()
     {
-        // Your code will go here
+        // My test case code
         vector<int> v = {1, 3, 2, 1};
         getConcatenation(v);
 
@@ -39,7 +39,7 @@ public:
         }
         cout << endl;
 
-        std::cout << "System ready." << std::endl;
+        cout << "System ready." << endl;
     }
 };
 
