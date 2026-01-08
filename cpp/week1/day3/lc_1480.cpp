@@ -19,21 +19,21 @@ void fast_io()
 class Solution
 {
 public:
-    // My actual function
-    vector<int> getConcatenation(vector<int>& nums)
+    vector<int> runningSum(vector<int>& nums)
     {
-        int size = nums.size();
-        for (int i = 0; i < size; i++) nums.push_back(nums[i]);
+        for (int i = 1; i < nums.size(); i++)
+        {
+            nums[i] += nums[i - 1];
+        }
         return nums;
     }
 
     void solve()
     {
-        // My test case code
-        vector<int> v = {1, 3, 2, 1};
-        getConcatenation(v);
+        vector<int> arr = {1, 2, 3, 4};
 
-        for (int x : v)
+        // My test case code
+        for (int x : runningSum(arr))
         {
             cout << x << " ";
         }

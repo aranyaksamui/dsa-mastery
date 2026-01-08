@@ -40,8 +40,6 @@ public:
         {
             cout << x << " ";
         }
-
-        cout << "System ready." << endl;
     }
 };
 
