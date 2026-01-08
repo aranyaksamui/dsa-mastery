@@ -26,7 +26,7 @@ public:
         for (vector<int>& banks : accounts)
         {
             sum = 0;
-            for (int& b : banks)
+            for (int b : banks)
                 sum += b;
             if (maxWealth < sum) maxWealth = sum;
         }
