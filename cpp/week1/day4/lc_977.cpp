@@ -1,10 +1,10 @@
+// 977. Squares of a Sorted Array
+
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
 #include <map>
-// 1929. Concatenation of Array
-
 #include <unordered_map>
 #include <set>
 
@@ -21,24 +21,20 @@ void fast_io()
 class Solution
 {
 public:
-    // My actual function
-    vector<int> getConcatenation(vector<int>& nums)
+    vector<int> sortedSquares(vector<int>& nums)
     {
-        int size = nums.size();
-        for (int i = 0; i < size; i++) nums.push_back(nums[i]);
+        for (int& x : nums) x = (x * x);
+        sort(nums.begin(), nums.end());
         return nums;
     }
 
     void solve()
     {
-        // My test case code
-        vector<int> v = {1, 3, 2, 1};
-        getConcatenation(v);
+        vector<int> nums = {-4, -1, 0, 3, 10};
+        for (int x : sortedSquares(nums)) cout << x << " ";
 
-        for (int x : v)
-        {
-            cout << x << " ";
-        }
+        // My test case code
+        cout << "System ready." << endl;
     }
 };
 

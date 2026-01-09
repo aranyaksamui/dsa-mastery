@@ -1,4 +1,4 @@
-// 1480. Running Sum of 1d Array
+// 217. Contains Duplicate
 
 #include <iostream>
 #include <vector>
@@ -21,24 +21,28 @@ void fast_io()
 class Solution
 {
 public:
-    vector<int> runningSum(vector<int>& nums)
+    bool containsDuplicate(vector<int>& nums) 
     {
-        for (int i = 1; i < nums.size(); i++)
+        sort(nums.begin(), nums.end());
+
+        for (int i = 0; i < nums.size() - 1; i++)
         {
-            nums[i] += nums[i - 1];
+            if (nums[i] == nums[i+1])
+                return true;
         }
-        return nums;
+    
+        return false;
     }
 
     void solve()
     {
-        vector<int> arr = {1, 2, 3, 4};
+        vector<int> nums1= {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
+        vector<int> nums2 = {1, 2, 3, 4};
+        cout << containsDuplicate(nums1) << endl;
+        cout << containsDuplicate(nums2) << endl;
 
         // My test case code
-        for (int x : runningSum(arr))
-        {
-            cout << x << " ";
-        }
+        cout << "System ready." << endl;
     }
 };
 
