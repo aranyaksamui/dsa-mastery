@@ -36,12 +36,12 @@ public:
 
     void solve()
     {
+        // My test case code
         vector<int> nums1= {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
         vector<int> nums2 = {1, 2, 3, 4};
         cout << containsDuplicate(nums1) << endl;
         cout << containsDuplicate(nums2) << endl;
 
-        // My test case code
         cout << "System ready." << endl;
     }
 };
