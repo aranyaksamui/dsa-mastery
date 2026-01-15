@@ -30,10 +30,10 @@ public:
 
     void solve()
     {
+        // My test case code
         vector<int> nums = {-4, -1, 0, 3, 10};
         for (int x : sortedSquares(nums)) cout << x << " ";
 
-        // My test case code
         cout << "System ready." << endl;
     }
 };

@@ -1,4 +1,5 @@
-// 344. Reverse String
+// WORK IN PROGRESS
+// 977. Squares of a Sorted Array
 
 #include <iostream>
 #include <vector>
@@ -21,28 +22,31 @@ void fast_io()
 class Solution
 {
 public:
-    void reverseString(vector<char>& s)
+    vector<int> sortedSquares(vector<int>& nums)
     {
         int start = 0;
-        int end = s.size() - 1;
+        int end = nums.size() - 1;
 
+        vector<int> result;
         while (start <= end)
         {
-            char c = s[start];
-            s[start] = s[end];
-            s[end] = c;
+            int a, b;
+            a = nums[start] * nums[start];
+            b = nums[end] * nums[end];
 
+            // Work in progress
+            
             start++;
             end--;
         }
+        return result;
     }
 
     void solve()
     {
         // My test case code
-        vector<char> s = {'h', 'e', 'l', 'l', 'o'};
-        reverseString(s);
-        for (char x : s) cout << x << " ";
+        vector<int> nums = {-4, -1, 0, 3, 10};
+        for (int x : sortedSquares(nums)) cout << x << " ";
 
         cout << endl << "System ready." << endl;
     }
