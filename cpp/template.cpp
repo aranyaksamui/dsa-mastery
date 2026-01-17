@@ -22,6 +22,7 @@ public:
     void solve()
     {
         // My test case code
+        
         cout << endl << "System ready." << endl;
     }
 };
