@@ -10,6 +10,17 @@
 
 using namespace std;
 
+// Definition for singly-linked list for Linked List problems.
+// struct ListNode
+// {
+//     int val;
+//     ListNode *next;
+
+//     ListNode() : val(0), next(nullptr) {}
+//     ListNode(int x) : val(x), next(nullptr) {}
+//     ListNode(int x, ListNode *next) : val(x), next(next) {}
+// };
+
 // This function speeds up input/output operations
 void fast_io()
 {
