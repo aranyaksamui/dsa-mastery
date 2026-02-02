@@ -64,6 +64,11 @@ public:
         // head = new ListNode(3, second);
 
         // cout << hasCycle(head) << endl;
+
+        // delete head;
+        // delete fourth;
+        // delete third;
+        // delete second;
         
         ListNode* second;
         ListNode* head;
@@ -73,6 +78,9 @@ public:
         second->next = head;
 
         cout << hasCycle(head) << endl;
+
+        delete head;
+        delete second;
         
         cout << endl << "System ready." << endl;
     }
