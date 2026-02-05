@@ -7,6 +7,7 @@
 #include <unordered_set>
 #include <set>
 #include <sstream>
+#include <stack>
 
 using namespace std;
 
