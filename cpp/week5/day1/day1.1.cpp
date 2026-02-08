@@ -29,3 +29,15 @@ int main()
 
     return 0;
 }
+
+/*
+    Test Results:
+    
+    50
+    40
+    30
+    20
+    10
+    Stack is empty
+
+*/
