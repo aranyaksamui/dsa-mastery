@@ -1,4 +1,4 @@
-// 344. Reverse String (Two Pointers - iterative)
+// 344. Reverse String (Recursive)
 
 #include <iostream>
 #include <vector>
@@ -6,7 +6,11 @@
 #include <algorithm>
 #include <map>
 #include <unordered_map>
+#include <unordered_set>
 #include <set>
+#include <sstream>
+#include <stack>
+#include <queue>
 
 using namespace std;
 
@@ -21,20 +25,23 @@ void fast_io()
 class Solution
 {
 public:
+    void revStrHelper(vector<char>& s, int start, int end)
+    {
+        if (start >= end) return;
+        
+        char temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
+
+        return revStrHelper(s, ++start, --end);
+    }
+
     void reverseString(vector<char>& s)
     {
         int start = 0;
         int end = s.size() - 1;
 
-        while (start <= end)
-        {
-            char c = s[start];
-            s[start] = s[end];
-            s[end] = c;
-
-            start++;
-            end--;
-        }
+        revStrHelper(s, start, end);
     }
 
     void solve()

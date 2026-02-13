@@ -1,4 +1,4 @@
-// 125. Valid Palindrome (iterative)
+// 125. Valid Palindrome (recursive approach)
 
 #include <iostream>
 #include <vector>
@@ -6,7 +6,11 @@
 #include <algorithm>
 #include <map>
 #include <unordered_map>
+#include <unordered_set>
 #include <set>
+#include <sstream>
+#include <stack>
+#include <queue>
 
 using namespace std;
 
@@ -21,37 +25,27 @@ void fast_io()
 class Solution
 {
 public:
+    bool isPalHelper(string& s, int start, int end)
+    {
+        if (start >= end) return true;
+        
+        if (!isalnum(s[start]) && !isalnum(s[end])) return isPalHelper(s, ++start, --end);
+        
+        if (!isalnum(s[start])) return isPalHelper(s, ++start, end);
+        if (!isalnum(s[end])) return isPalHelper(s, start, --end);
+        
+        if (tolower(s[start]) == tolower(s[end])) return isPalHelper(s, ++start, --end);
+        else return false;
+    }
+
     bool isPalindrome(string s)
     {
+        if (s.size() == 0) return true;
+
         int start = 0;
         int end = s.size() - 1;
 
-        while (!isalnum(s[start]) && !isalnum(s[end]))
-        {
-            if (start >= end) return true;
-            start++;
-            end--;
-        }
-        
-        bool isPalindrome = false;
-        while (start <= end)
-        {
-            if (!isalnum(s[start]) && !isalnum(s[end])) { start++; end--; continue; }
-            if (!isalnum(s[start])) { start++; continue; }
-            if (!isalnum(s[end])) { end--; continue; }
-
-            if (tolower(s[start]) == tolower(s[end]))
-                isPalindrome = true;
-            else 
-            { 
-                isPalindrome = false; 
-                return isPalindrome; 
-            }
-
-            start++;
-            end--;
-        }
-        return isPalindrome;
+        return isPalHelper(s, start, end);
     }
 
     void solve()
