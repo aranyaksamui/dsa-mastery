@@ -40,16 +40,6 @@ public:
                 adjList[j].push_back({w, i});
             }
         }
-
-        // DEBUG
-        for (auto& e : adjList)
-        {
-            cout << e.first << ": ";
-            for (vector<int> v : e.second) cout << "{" << v[0] << ", " << v[1] << "}";
-            cout << endl;
-        }
-        cout << endl;
-        // DEBUG
         
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> minHeap;
         minHeap.push({0, 0});   // w, u
