@@ -1,4 +1,4 @@
-// The knapsack problem
+// Fractional Knapsack
 
 #include <iostream>
 #include <vector>
