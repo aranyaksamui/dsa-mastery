@@ -22,3 +22,6 @@ bin/
 build/
 Debug/
 Release/
+
+# Not completed yet
+practice/lc_198.cpp
