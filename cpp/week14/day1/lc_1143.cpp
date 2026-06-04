@@ -25,17 +25,17 @@ void fast_io()
 class Solution
 {
 public:
+    // DEBUG
     void displayGrid(vector<vector<int>>& dpGrid)
     {
         for (int i = 0; i < dpGrid.size(); i++)
         {
             for (int j = 0; j < dpGrid[0].size(); j++)
-            {
                 cout << dpGrid[i][j] << " ";
-            }
             cout << endl;
         }
     }
+    // DEBUG
 
     int longestCommonSequence(string text1, string text2)
     {
