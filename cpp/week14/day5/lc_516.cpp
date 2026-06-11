@@ -1,5 +1,3 @@
-// 1143. Longest Common Subsequence
-
 #include <iostream>
 #include <vector>
 #include <string>
@@ -37,33 +35,33 @@ public:
     }
     // DEBUG
 
-    int longestCommonSequence(string text1, string text2)
+    int longestPalindromeSubseq(string& s)
     {
-        vector<vector<int>> dpGrid(text1.size() + 1, vector<int>(text2.size() + 1, 0));
+        vector<vector<int>> dpGrid(s.size(), vector<int>(s.size(), 0));
 
-        for (int i = 1; i < dpGrid.size(); i++)
+        for (int i = 0; i < s.size(); i++) dpGrid[i][i] = 1;
+
+        
+        for (int i = s.size() - 2; i >= 0; i--)
         {
-            for (int j = 1; j < dpGrid[0].size(); j++)
+            for (int j = i + 1; j < s.size(); j++)
             {
-                if (text1[i - 1] == text2[j - 1]) dpGrid[i][j] = 1 + dpGrid[i - 1][j - 1];
-                else dpGrid[i][j] = max(dpGrid[i - 1][j], dpGrid[i][j - 1]);
+                if (s[i] == s[j]) dpGrid[i][j] = 2 + dpGrid[i + 1][j - 1];
+                else dpGrid[i][j] = max(dpGrid[i + 1][j], dpGrid[i][j - 1]);
             }
         }
 
-        return dpGrid[dpGrid.size() - 1][dpGrid[0].size() - 1];
+        return dpGrid[0][s.size() - 1];
     }
 
     void solve()
     {
         // My test case code
-        string text1 = "abcde";
-        string text2 = "ace";
+        string s = "bbbab";
+        
+        longestPalindromeSubseq(s);
 
-        // string text1 = "abc";
-        // string text2 = "def";
-
-        cout << longestCommonSequence(text1, text2) << endl;
-
+        
         cout << endl << "System ready." << endl;
     }
 };
