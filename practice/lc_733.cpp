@@ -55,7 +55,6 @@ public:
 
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color)
     {
-        // displayGrid(image);
         if (image[sr][sc] == color) return image;
 
         floodFillHelper(image, sr, sc, color);
