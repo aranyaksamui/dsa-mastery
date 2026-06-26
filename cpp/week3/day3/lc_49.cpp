@@ -1,4 +1,9 @@
-// 49. Group Anagrams
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 3: Grouping Data (Hash Maps of Vectors)
+
+    LeetCode: 49. Group Anagrams
+*/
 
 #include <iostream>
 #include <vector>

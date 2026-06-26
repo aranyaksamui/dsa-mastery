@@ -1,4 +1,9 @@
-// 290. Word Pattern
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 4: One-to-One Mappings (Bijection)
+
+    LeetCode: 290. Word Pattern
+*/
 
 #include <iostream>
 #include <vector>

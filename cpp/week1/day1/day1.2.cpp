@@ -1,5 +1,11 @@
-// Time complexity test
-// Write a Cpp program that calculates the sum of numbers from 1 to N.
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 1: Complexity Analysis
+
+    Time complexity test
+    Write a Cpp program that calculates the sum of numbers from 1 to N.
+*/ 
+
 
 #include <iostream>
 #include <chrono>

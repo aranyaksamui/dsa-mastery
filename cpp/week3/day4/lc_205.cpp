@@ -1,4 +1,9 @@
-// 205. Isomorphic Strings
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 4: One-to-One Mappings (Bijection)
+
+    LeetCode: 205. Isomorphic Strings
+*/
 
 #include <iostream>
 #include <vector>

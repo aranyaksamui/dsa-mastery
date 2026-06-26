@@ -1,4 +1,9 @@
-// 219. Contains Duplicate II
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 5: Variable Sliding Window (Set)
+
+    LeetCode: 219. Contains Duplicate II
+*/
 
 #include <iostream>
 #include <vector>

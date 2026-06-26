@@ -1,4 +1,10 @@
-// 125. Valid Palindrome (iterative)
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 1: Two Pointers (Opposite Ends)
+
+    LeetCode: 125. Valid Palindrome (iterative)
+*/ 
+
 
 #include <iostream>
 #include <vector>

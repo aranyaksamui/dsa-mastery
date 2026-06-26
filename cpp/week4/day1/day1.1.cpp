@@ -1,4 +1,9 @@
-// Using structs (Structures) with linked lists
+/*
+    WEEK 4: Linked Lists
+    DAY 1: The Structure and & The Arrow (->)
+
+    Using structs (Structures) with linked lists
+*/
 
 #include <iostream>
 

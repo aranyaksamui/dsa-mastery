@@ -1,4 +1,10 @@
-// 1480. Running Sum of 1d Array
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 3: Loops, References and Iterators
+
+    LeetCode: 1480. Running Sum of 1d Array
+*/ 
+
 
 #include <iostream>
 #include <vector>

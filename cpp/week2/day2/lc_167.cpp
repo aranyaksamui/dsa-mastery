@@ -1,4 +1,10 @@
-// 167. Two Sum II - Input Array Is Sorted
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 2: Two Pointers on Sorted Arrays
+
+    LeetCode: 167. Two Sum II - Input Array Is Sorted
+*/ 
+
 
 #include <iostream>
 #include <vector>

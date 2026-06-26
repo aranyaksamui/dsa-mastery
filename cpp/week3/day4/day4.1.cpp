@@ -1,4 +1,10 @@
-// stringstream
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 4: One-to-One Mappings (Bijection)
+
+    std::stringstream
+*/
+
 
 #include <iostream>
 #include <string>

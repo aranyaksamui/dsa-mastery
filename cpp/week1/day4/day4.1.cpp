@@ -1,4 +1,10 @@
-// Sorting & The Algorithm Library
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 4: Sorting & The Algorithm Library
+
+    Sorting & The Algorithm Library
+*/ 
+
 
 #include <iostream>
 #include <algorithm>

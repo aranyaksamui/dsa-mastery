@@ -1,4 +1,10 @@
-// 217. Contains Duplicate
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 4: Sorting & The Algorithm Library
+
+    LeetCode: 217. Contains Duplicate
+*/ 
+
 
 #include <iostream>
 #include <vector>

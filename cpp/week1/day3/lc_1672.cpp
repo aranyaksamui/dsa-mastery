@@ -1,4 +1,10 @@
-// 1672. Richest Customer Wealth
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 3: Loops, References and Iterators
+
+    LeetCode: 1672. Richest Customer Wealth
+*/ 
+
 
 #include <iostream>
 #include <vector>

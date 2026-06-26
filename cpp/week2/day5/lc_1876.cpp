@@ -1,4 +1,9 @@
-// 1876. Substrings of Size Three with Distinct Characters
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 5: Introduction to Sliding Window (Fixed size)
+    
+    LeetCode: 1876. Substrings of Size Three with Distinct Characters
+*/
 
 #include <iostream>
 #include <vector>

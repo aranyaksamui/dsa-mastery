@@ -1,4 +1,9 @@
-// 1. Two Sum
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 1: Introduction to Hash Maps
+
+    LeetCode: 1. Two Sum
+*/
 
 #include <iostream>
 #include <vector>

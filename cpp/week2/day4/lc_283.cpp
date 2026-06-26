@@ -1,4 +1,9 @@
-// 283. Move Zeroes
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 4: Fast & Slow Pointers (In-place Operations)
+    
+    LeetCode: 283. Move Zeroes
+*/
 
 #include <iostream>
 #include <vector>

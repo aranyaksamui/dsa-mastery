@@ -1,3 +1,8 @@
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 1: Two Pointers (Opposite Ends)
+*/ 
+
 // Reverse an array using Two Pointers in-place
 
 #include <iostream>

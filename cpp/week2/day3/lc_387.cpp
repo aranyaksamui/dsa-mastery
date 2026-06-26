@@ -1,4 +1,9 @@
-// 387. First Unique Character in a String
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 3: String Anagrams & Frequency Arrays
+    
+    LeetCode: 387. First Unique Character in a String
+*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,10 @@
-// 1920. Build Array from Permutation
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 2: std::vector
+
+    LeetCode: 1920. Build Array from Permutation
+*/ 
+
 
 #include <iostream>
 #include <vector>

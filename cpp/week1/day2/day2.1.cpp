@@ -1,4 +1,10 @@
-// std::vector
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 2: std::vector
+
+    std::vector
+*/ 
+
 
 #include <iostream>
 #include <vector>

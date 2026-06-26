@@ -1,4 +1,10 @@
-// 26. Remove Duplicates from Sorted Array
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 4: Fast & Slow Pointers (In-place Operations)
+
+    LeetCode: 26. Remove Duplicates from Sorted Array
+*/
+
 
 #include <iostream>
 #include <vector>

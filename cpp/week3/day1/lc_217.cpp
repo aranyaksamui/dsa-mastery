@@ -1,4 +1,10 @@
-// 217. Contains Duplicate
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 1: Introduction to Hash Maps
+    
+    LeetCode: 217. Contains Duplicate
+*/
+
 
 #include <iostream>
 #include <vector>

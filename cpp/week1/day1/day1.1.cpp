@@ -1,4 +1,10 @@
-// Big O and Complexity
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 1: Complexity Analysis
+    
+    Big O and Complexity
+*/ 
+
 
 #include <iostream>
 #include <vector>

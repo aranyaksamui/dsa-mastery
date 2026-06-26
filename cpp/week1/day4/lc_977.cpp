@@ -1,3 +1,8 @@
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 4: Sorting & The Algorithm Library
+*/ 
+
 // 977. Squares of a Sorted Array
 
 #include <iostream>

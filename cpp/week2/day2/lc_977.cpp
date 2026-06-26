@@ -1,5 +1,11 @@
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 2: Two Pointers on Sorted Arrays
+
+    LeetCode: 977. Squares of a Sorted Array
+*/ 
+
 // WORK IN PROGRESS
-// 977. Squares of a Sorted Array
 
 #include <iostream>
 #include <vector>

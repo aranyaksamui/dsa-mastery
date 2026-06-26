@@ -1,4 +1,10 @@
-// 643. Maximum Average Subarray I
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 5: Introduction to Sliding Window (Fixed size)
+
+    LeetCode: 643. Maximum Average Subarray I
+*/
+
 
 #include <iostream>
 #include <vector>

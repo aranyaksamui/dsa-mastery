@@ -1,4 +1,10 @@
-// 344. Reverse String (Two Pointers - iterative)
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 1: Two Pointers (Opposite Ends)
+
+    LeetCode: 344. Reverse String (Two Pointers - iterative)
+*/ 
+
 
 #include <iostream>
 #include <vector>

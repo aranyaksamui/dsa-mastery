@@ -1,4 +1,10 @@
-// Value vs. Reference
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 3: Loops, References and Iterators
+
+    Value vs. Reference
+*/ 
+
 
 #include <iostream>
 #include <vector>

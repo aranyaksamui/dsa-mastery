@@ -1,4 +1,9 @@
-// Hash maps
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 1: Introduction to Hash Maps
+
+    Hash maps
+*/
 
 #include <iostream>
 #include <unordered_map>

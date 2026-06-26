@@ -1,3 +1,10 @@
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 2: Sets & Intersections
+
+    LeetCode: 202. Happy Number
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>

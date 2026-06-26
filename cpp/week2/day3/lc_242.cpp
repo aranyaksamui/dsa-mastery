@@ -1,4 +1,10 @@
-// 242. Valid Anagram
+/*
+    WEEK 2: Arrays, Strings & Two Pointers
+    DAY 3: String Anagrams & Frequency Arrays
+    
+    LeetCode: 242. Valid Anagram
+*/ 
+
 
 #include <iostream>
 #include <vector>

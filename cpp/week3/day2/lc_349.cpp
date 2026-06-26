@@ -1,4 +1,9 @@
-// 349. Intersection of Two Arrays
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 2: Sets & Intersections
+
+    LeetCode: 349. Intersection of Two Arrays
+*/
 
 #include <iostream>
 #include <vector>

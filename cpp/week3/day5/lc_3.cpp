@@ -1,4 +1,9 @@
-// 3. Longest Substring Without Repeating Characters
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 5: Variable Sliding Window (Set)
+  
+    LeetCode: 3. Longest Substring Without Repeating Characters
+*/
 
 #include <iostream>
 #include <vector>

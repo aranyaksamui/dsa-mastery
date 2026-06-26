@@ -1,3 +1,10 @@
+/*
+    WEEK 3: Hashing & The Magic of O(1)
+    DAY 2: Sets & Intersections
+
+    std::unordered_set
+*/
+
 #include <iostream>
 #include <unordered_set>
 

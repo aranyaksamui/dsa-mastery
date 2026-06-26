@@ -1,10 +1,16 @@
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 2: std::vector
+
+    LeetCode: 1929. Concatenation of Array
+*/ 
+
+
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
 #include <map>
-// 1929. Concatenation of Array
-
 #include <unordered_map>
 #include <set>
 

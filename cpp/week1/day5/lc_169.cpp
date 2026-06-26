@@ -1,4 +1,9 @@
-// The Challenge: LeetCode 169
+/*
+    WEEK 1: C++ STL & Big O
+    DAY 5: Pairs, Auto and Logic
+*/ 
+
+// 169. Majority Element
 
 #include <iostream>
 #include <vector>
