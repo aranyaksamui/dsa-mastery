@@ -1,4 +1,9 @@
-// 344. Reverse String (Recursive)
+/*
+    WEEK 6: Recursion & Trees
+    DAY 2: Recursion on Strings (Two Pointers Style)
+  
+    LeetCode: 344. Reverse String (Recursive)
+*/
 
 #include <iostream>
 #include <vector>

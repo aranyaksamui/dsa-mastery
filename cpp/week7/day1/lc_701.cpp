@@ -1,4 +1,9 @@
-// 701. Insert into a Binary Search Tree
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 1: Introduction to BST (Search & Insert)
+
+    LeetCode: 701. Insert into a Binary Search Tree
+*/
 
 #include <iostream>
 #include <vector>

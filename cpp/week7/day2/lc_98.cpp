@@ -1,4 +1,9 @@
-// 98. Validate Binary Search Tree
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 2: Validating a BST & LCA
+
+    LeetCode: 98. Validate Binary Search Tree
+*/
 
 #include <iostream>
 #include <vector>

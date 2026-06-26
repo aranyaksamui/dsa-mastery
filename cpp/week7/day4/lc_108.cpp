@@ -1,4 +1,9 @@
-// 108. Convert Sorted Array to Binary Search Tree
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 4: Sorted Array to Balanced BST
+
+    LeetCode: 108. Convert Sorted Array to Binary Search Tree
+*/
 
 #include <iostream>
 #include <vector>

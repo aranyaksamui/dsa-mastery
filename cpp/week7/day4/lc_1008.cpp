@@ -1,4 +1,9 @@
-// 1008. Construct Binary Search Tree from Preorder Traversal
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 4: Sorted Array to Balanced BST
+
+    LeetCode: 1008. Construct Binary Search Tree from Preorder Traversal
+*/
 
 #include <iostream>
 #include <vector>

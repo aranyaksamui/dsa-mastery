@@ -1,4 +1,9 @@
-// 231. Power of Two
+/*
+    WEEK 6: Recursion & Trees
+    DAY 1: The Call Stack & Base Cases
+
+    LeetCode: 231. Power of Two
+*/
 
 #include <iostream>
 #include <vector>

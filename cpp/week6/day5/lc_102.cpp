@@ -1,4 +1,9 @@
-// 102. Binary Tree Level Order Traversal
+/*
+    WEEK 6: Recursion & Trees
+    DAY 5: Level Order Traversal (BFS)
+
+    LeetCode: 102. Binary Tree Level Order Traversal
+*/
 
 #include <iostream>
 #include <vector>

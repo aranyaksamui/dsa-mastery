@@ -1,4 +1,9 @@
-// Dummy node
+/*
+    WEEK 4: Linked Lists
+    DAY 3: Merging & The "Dummy Node" Trick
+
+    Dummy node
+*/
 
 #include <iostream>
 

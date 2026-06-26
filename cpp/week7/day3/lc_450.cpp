@@ -1,4 +1,9 @@
-// 450. Delete Node in a BST
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 3: Deleting a Node (BST Surgery)
+
+    LeetCode: 450. Delete Node in a BST
+*/
 
 #include <iostream>
 #include <vector>

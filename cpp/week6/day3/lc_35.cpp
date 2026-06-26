@@ -1,4 +1,9 @@
-// 35. Search Insert Position
+/*
+    WEEK 6: Recursion & Trees
+    DAY 3: Binary Search (Recursive)
+    
+    LeetCode: 35. Search Insert Position
+*/
 
 #include <iostream>
 #include <vector>

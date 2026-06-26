@@ -1,4 +1,9 @@
-// 203. Remove Linked List Elements
+/*
+    WEEK 4: Linked Lists
+    DAY 5: Removing Elements (The "Skip" Logic)
+
+    LeetCode: 203. Remove Linked List Elements
+*/
 
 #include <iostream>
 #include <vector>

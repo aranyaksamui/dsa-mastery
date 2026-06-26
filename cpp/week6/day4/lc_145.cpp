@@ -1,4 +1,9 @@
-// 145. Binary Tree Postorder Traversal
+/*
+    WEEK 6: Recursion & Trees
+    DAY 4: Binary Trees & DFS Traversals
+    
+    LeetCode: 145. Binary Tree Postorder Traversal
+*/
 
 #include <iostream>
 #include <vector>

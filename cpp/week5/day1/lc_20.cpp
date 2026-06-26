@@ -1,4 +1,9 @@
-// 20. Valid Parentheses
+/*
+    WEEK 5: Stacks & Queues
+    DAY 1: The Stack (LIFO)
+
+    LeetCode: 20. Valid Parentheses
+*/
 
 #include <iostream>
 #include <vector>

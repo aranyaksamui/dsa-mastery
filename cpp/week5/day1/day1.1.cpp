@@ -1,4 +1,10 @@
-// C++ stack
+/*
+    WEEK 5: Stacks & Queues
+    DAY 1: The Stack (LIFO)
+
+    std::stack (C++ Stack)
+*/
+
 
 #include <iostream>
 #include <stack>

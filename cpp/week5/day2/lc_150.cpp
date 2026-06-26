@@ -1,4 +1,9 @@
-// 150. Evaluate Reverse Polish Notation
+/*
+    WEEK 5: Stacks & Queues
+    DAY 2: Stack Simulation & String Processing
+
+    LeetCode: 150. Evaluate Reverse Polish Notation
+*/
 
 #include <iostream>
 #include <vector>

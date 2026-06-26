@@ -1,4 +1,9 @@
-// 206. Reverse Linked List
+/*
+    WEEK 4: Linked Lists
+    DAY 2: Reversing a Linked List
+
+    LeetCode: 206. Reverse Linked List
+*/
 
 #include <iostream>
 #include <vector>

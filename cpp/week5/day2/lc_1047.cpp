@@ -1,4 +1,9 @@
-// 1047. Remove All Adjacent Duplicates In String
+/*
+    WEEK 5: Stacks & Queues
+    DAY 2: Stack Simulation & String Processing
+
+    LeetCode: 1047. Remove All Adjacent Duplicates In String
+*/
 
 #include <iostream>
 #include <vector>

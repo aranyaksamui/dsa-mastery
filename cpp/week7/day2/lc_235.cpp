@@ -1,4 +1,9 @@
-// 235. Lowest Common Ancestor of a Binary Search Tree
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 2: Validating a BST & LCA
+
+    LeetCode: 235. Lowest Common Ancestor of a Binary Search Tree
+*/
 
 #include <iostream>
 #include <vector>

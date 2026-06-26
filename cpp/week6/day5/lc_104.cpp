@@ -1,4 +1,9 @@
-// 104. Maximum Depth of Binary Tree
+/*
+    WEEK 6: Recursion & Trees
+    DAY 5: Level Order Traversal (BFS)
+
+    LeetCode: 104. Maximum Depth of Binary Tree
+*/
 
 #include <iostream>
 #include <vector>

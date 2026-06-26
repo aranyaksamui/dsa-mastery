@@ -1,4 +1,9 @@
-// 538. Convert BST to Greater Tree
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 5: The K-th Smallest Element
+
+    LeetCode: 538. Convert BST to Greater Tree
+*/
 
 #include <iostream>
 #include <vector>

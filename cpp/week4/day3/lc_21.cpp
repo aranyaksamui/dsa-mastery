@@ -1,4 +1,9 @@
-// 21. Merge Two Sorted Lists
+/*
+    WEEK 4: Linked Lists
+    DAY 3: Merging & The "Dummy Node" Trick
+
+    LeetCode:  21. Merge Two Sorted Lists
+*/
 
 #include <iostream>
 #include <vector>

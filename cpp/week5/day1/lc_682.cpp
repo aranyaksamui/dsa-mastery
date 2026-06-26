@@ -1,4 +1,9 @@
-// 682. Baseball Game
+/*
+    WEEK 5: Stacks & Queues
+    DAY 1: The Stack (LIFO)
+
+    LeetCode: 682. Baseball Game
+*/
 
 #include <iostream>
 #include <vector>

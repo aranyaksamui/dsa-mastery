@@ -1,4 +1,9 @@
-// 230. Kth Smallest Element in a BST
+/*
+    WEEK 7: Binary Search Trees (BST)
+    DAY 5: The K-th Smallest Element
+
+    LeetCode: 230. Kth Smallest Element in a BST
+*/
 
 #include <iostream>
 #include <vector>

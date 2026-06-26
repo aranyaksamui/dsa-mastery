@@ -1,4 +1,9 @@
-// 144. Binary Tree Inorder Traversal
+/*
+    WEEK 6: Recursion & Trees
+    DAY 4: Binary Trees & DFS Traversals
+
+    LeetCode: 144. Binary Tree Inorder Traversal
+*/
 
 #include <iostream>
 #include <vector>

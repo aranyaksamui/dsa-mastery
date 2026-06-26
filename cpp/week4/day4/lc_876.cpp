@@ -1,4 +1,10 @@
-// 876. Middle of the Linked List
+/*
+    WEEK 4: Linked Lists
+    DAY 4: Cycle Detection (Fast & Slow Pointers)
+
+    LeetCode: 876. Middle of the Linked List
+*/
+
 
 #include <iostream>
 #include <vector>

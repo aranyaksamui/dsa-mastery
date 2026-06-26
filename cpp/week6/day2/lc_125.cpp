@@ -1,4 +1,9 @@
-// 125. Valid Palindrome (recursive approach)
+/*
+    WEEK 6: Recursion & Trees
+    DAY 2: Recursion on Strings (Two Pointers Style)
+
+    LeetCode: 125. Valid Palindrome (recursive approach)
+*/
 
 #include <iostream>
 #include <vector>

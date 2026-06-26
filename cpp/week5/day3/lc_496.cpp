@@ -1,4 +1,9 @@
-// 496. Next Greater Element I
+/*
+    WEEK 5: Stacks & Queues
+    DAY 3: The Monotonic Stack
+
+    LeetCode: 496. Next Greater Element I
+*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,9 @@
-// 155. Min Stack
+/*
+    WEEK 5: Stacks & Queues
+    DAY 5: The Min Stack (Design)
+
+    LeetCode: 155. Min Stack
+*/
 
 #include <iostream>
 #include <vector>

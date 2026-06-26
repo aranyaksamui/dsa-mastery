@@ -1,4 +1,9 @@
-// 225. Implement Stack using Queues
+/*
+    WEEK 5: Stacks & Queues
+    DAY 4: Queues & The Adapter Pattern
+    
+    LeetCode: 225. Implement Stack using Queues
+*/
 
 #include <iostream>
 #include <vector>

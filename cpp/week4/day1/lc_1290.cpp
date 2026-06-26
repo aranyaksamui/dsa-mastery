@@ -1,4 +1,9 @@
-// 1290. Convert Binary Number in a Linked List to Integer
+/*
+    WEEK 4: Linked Lists
+    DAY 1: The Structure and & The Arrow (->)
+
+    LeetCode: 1290. Convert Binary Number in a Linked List to Integer
+*/
 
 #include <iostream>
 #include <vector>

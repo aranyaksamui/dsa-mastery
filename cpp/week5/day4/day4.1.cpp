@@ -1,3 +1,10 @@
+/*
+    WEEK 5: Stacks & Queues
+    DAY 4: Queues & The Adapter Pattern
+
+    std::queue
+*/
+
 #include <iostream>
 #include <queue>
 

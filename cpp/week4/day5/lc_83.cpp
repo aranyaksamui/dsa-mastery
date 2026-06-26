@@ -1,4 +1,9 @@
-// 83. Remove Duplicates from Sorted List
+/*
+    WEEK 4: Linked Lists
+    DAY 5: Removing Elements (The "Skip" Logic)
+
+    LeetCode: 83. Remove Duplicates from Sorted List
+*/
 
 #include <iostream>
 #include <vector>

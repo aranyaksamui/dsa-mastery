@@ -1,4 +1,9 @@
-// 704. Binary Search
+/*
+    WEEK 6: Recursion & Trees
+    DAY 3: Binary Search (Recursive)
+    
+    LeetCode: 704. Binary Search
+*/
 
 #include <iostream>
 #include <vector>

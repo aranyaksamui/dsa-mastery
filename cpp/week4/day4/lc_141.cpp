@@ -1,4 +1,9 @@
-// 141. Linked List Cycle
+/*
+    WEEK 4: Linked Lists
+    DAY 4: Cycle Detection (Fast & Slow Pointers)
+
+    LeetCode: 141. Linked List Cycle
+*/
 
 #include <iostream>
 #include <vector>
