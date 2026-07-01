@@ -1,4 +1,9 @@
-// 295. Find Median from Data Stream
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 4: Median from Data Stream (The Two Heaps)
+
+    LeetCode: 295. Find Median from Data Stream
+*/
 
 #include <iostream>
 #include <vector>

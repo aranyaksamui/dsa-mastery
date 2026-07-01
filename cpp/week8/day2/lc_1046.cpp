@@ -1,4 +1,9 @@
-// 1046. Last Stone Weight
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 2: Heap Simulation (The Gladiator Pit)
+    
+    LeetCode: 1046. Last Stone Weight
+*/
 
 #include <iostream>
 #include <vector>

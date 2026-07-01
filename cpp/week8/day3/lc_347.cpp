@@ -1,4 +1,9 @@
-// 347. Top K Frequent Elements
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 3: Merging Multiple Sources
+
+    LeetCode: 347. Top K Frequent Elements
+*/
 
 #include <iostream>
 #include <vector>

@@ -1,3 +1,10 @@
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 1: The Binary Heap
+
+    std::priority_queue
+*/
+
 #include <iostream>
 #include <queue>
 using namespace std;

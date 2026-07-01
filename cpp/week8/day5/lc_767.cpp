@@ -1,4 +1,9 @@
-// 767. Reorganize String
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 5: Task Scheduling (Greedy + Heaps)
+
+    LeetCode: 767. Reorganize String
+*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,9 @@
-// 215. Kth Largest Element in an Array
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 1: The Binary Heap
+
+    LeetCode: 215. Kth Largest Element in an Array
+*/
 
 #include <iostream>
 #include <vector>

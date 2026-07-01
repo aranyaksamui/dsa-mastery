@@ -1,4 +1,9 @@
-// 23. Merge k Sorted Lists
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 3: Merging Multiple Sources
+
+    LeetCode: 23. Merge k Sorted Lists
+*/
 
 #include <iostream>
 #include <vector>

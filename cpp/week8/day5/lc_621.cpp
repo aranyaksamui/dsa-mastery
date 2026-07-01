@@ -1,4 +1,10 @@
-// 621. Task Scheduler
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 5: Task Scheduling (Greedy + Heaps)
+
+    LeetCode: 621. Task Scheduler
+*/
+
 
 #include <iostream>
 #include <vector>

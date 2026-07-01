@@ -1,4 +1,9 @@
-// 973. K Closest Points to Origin
+/*
+    WEEK 8: Heaps & Priority Queues
+    DAY 2: Heap Simulation (The Gladiator Pit)
+    
+    LeetCode: 973. K Closest Points to Origin
+*/
 
 #include <iostream>
 #include <vector>
