@@ -1,4 +1,10 @@
-// 46. Permutations
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 2: Permutation (The "Swap" pattern)
+
+    LeetCode: 46. Permutations
+*/
+
 
 #include <iostream>
 #include <vector>

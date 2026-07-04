@@ -1,4 +1,9 @@
-// 51. N-Queens
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 5: Hard Backtracking (N-Queens)
+
+    LeetCode: 51. N-Queens
+*/
 
 #include <iostream>
 #include <vector>

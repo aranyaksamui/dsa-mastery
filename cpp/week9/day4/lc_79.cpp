@@ -1,4 +1,10 @@
-// 79. Word Search
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 4: Matrix Backtracking (Word Search)
+
+    LeetCode: 79. Word Search
+*/
+
 
 #include <iostream>
 #include <vector>

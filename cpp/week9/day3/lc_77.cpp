@@ -1,4 +1,10 @@
-// 77. Combinations
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 3: Combinations & Infinite Supply
+
+    LeetCode: 77. Combinations
+*/
+
 
 #include <iostream>
 #include <vector>

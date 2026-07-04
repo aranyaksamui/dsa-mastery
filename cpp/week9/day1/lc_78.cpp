@@ -1,4 +1,9 @@
-// 78. Subsets
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 1: Introduction to Backtracking (Subsets)
+
+    LeetCode: 78. Subsets
+*/
 
 #include <iostream>
 #include <vector>

@@ -1,4 +1,9 @@
-// 39. Combination Sum
+/*
+    WEEK 9: Backtracking (Decision Trees)
+    DAY 3: Combinations & Infinite Supply
+
+    LeetCode: 39. Combination Sum
+*/
 
 #include <iostream>
 #include <vector>
