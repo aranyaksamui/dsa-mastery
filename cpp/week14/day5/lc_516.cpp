@@ -59,7 +59,7 @@ public:
         // My test case code
         string s = "bbbab";
         
-        longestPalindromeSubseq(s);
+        cout << longestPalindromeSubseq(s) << endl;
 
         
         cout << endl << "System ready." << endl;
