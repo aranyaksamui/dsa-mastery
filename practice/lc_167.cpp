@@ -1,3 +1,7 @@
+/*
+    LeetCode: 167. Two Sum II - Input Array Is Sorted
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -31,7 +35,7 @@ public:
 
         while (start < end)
         {
-            if (target - numbers[end] == numbers[start]) 
+            if (target - numbers[end] == numbers[start])
             {
                 indices = {start + 1, end + 1};
                 break;
