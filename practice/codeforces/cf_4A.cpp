@@ -1,5 +1,5 @@
 /*
-    4A. Watermelon
+    Codeforces: 231A. Team
 */
 
 
