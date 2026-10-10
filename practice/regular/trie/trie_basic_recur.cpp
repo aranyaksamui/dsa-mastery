@@ -16,21 +16,22 @@ using namespace std;
 struct Trie
 {
     unordered_map<char, Trie*> ch_trie;
+    bool isTerminal = false;
 
-    Trie() : ch_trie() {};
+    Trie() : isTerminal(false), ch_trie() {};
 };
 
 // Build a followup trie
 Trie* build_followup(Trie* t, string& word, int idx)
 {
     // If index is same as string size then return
-    if (idx == word.size()) return t;
+    if (idx == word.size()) 
+    {
+        return t;
+        t->isTerminal = true;
+    }
     
     char ch = word[idx];
-
-    // DEBUG
-    cout << ch << " ";
-    // DEBUG
 
     // If key does not exist
     if (!t->ch_trie.count(ch))
@@ -60,7 +61,7 @@ void check_followup(string word, Trie* t, int idx)
 {
     char ch = word[idx];
 
-    if (t->ch_trie[ch])
+    if (t->ch_trie.count(ch) && !t->isTerminal)
     {
         cout << ch << "";
         check_followup(word, t->ch_trie[ch], idx + 1);
@@ -74,11 +75,9 @@ void check_words(vector<string>& words, Trie* root)
 
     for (string& word : words)
     {
-        cout << endl;
         check_followup(word, root, idx);
+        cout << endl;
     }
-
-    cout << endl;
 }
 
 int main()
@@ -87,7 +86,7 @@ int main()
 
     Trie* root = build_trie(input_words);
 
-    vector<string> val_words = {"flower", "flight", "turn"};
+    vector<string> val_words = {"flower", "flight", "flow"};
 
     check_words(val_words, root);
 
