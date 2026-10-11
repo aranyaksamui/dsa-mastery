@@ -18,7 +18,7 @@ struct Trie
     unordered_map<char, Trie*> ch_trie;
     bool isTerminal = false;
 
-    Trie() : isTerminal(false), ch_trie() {};
+    Trie() : ch_trie(), isTerminal(false) {};
 };
 
 // Build a followup trie
