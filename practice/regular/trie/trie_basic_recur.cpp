@@ -27,8 +27,8 @@ Trie* build_followup(Trie* t, string& word, int idx)
     // If index is same as string size then return
     if (idx == word.size()) 
     {
-        return t;
         t->isTerminal = true;
+        return t;
     }
     
     char ch = word[idx];
@@ -61,7 +61,7 @@ void check_followup(string word, Trie* t, int idx)
 {
     char ch = word[idx];
 
-    if (t->ch_trie.count(ch) && !t->isTerminal)
+    if (t->ch_trie.count(ch))
     {
         cout << ch << "";
         check_followup(word, t->ch_trie[ch], idx + 1);
@@ -71,6 +71,8 @@ void check_followup(string word, Trie* t, int idx)
 // Check if words are available in trie
 void check_words(vector<string>& words, Trie* root)
 {
+    if (!root) return;
+
     int idx = 0;
 
     for (string& word : words)
