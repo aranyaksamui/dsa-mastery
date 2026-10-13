@@ -1,5 +1,5 @@
 /*
-    LeetCode: 14. Longest Common Prefix (not yet complete)
+    LeetCode: 14. Longest Common Prefix
 */
 
 #include <iostream>
