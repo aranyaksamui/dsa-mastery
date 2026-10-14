@@ -1,3 +1,5 @@
+// Count the no. of occurrences of a letter
+
 #include <iostream>
 #include <string>
 
