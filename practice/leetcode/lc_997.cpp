@@ -1,5 +1,5 @@
 /*
-    LeetCode: 997. Find the Town Judge
+    LeetCode: 997. Find the Town Judge (unoptimized)
 */
 
 #include <bits/stdc++.h>
