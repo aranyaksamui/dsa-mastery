@@ -1,5 +1,5 @@
 /*
-    LeetCode: 841. Keys and Rooms (Space optimized)
+    LeetCode: 841. Keys and Rooms (Space optimized (O(N)))
 */
 
 
