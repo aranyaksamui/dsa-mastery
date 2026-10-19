@@ -30,13 +30,13 @@ void fast_io()
 class Solution
 {
 public:
-    void dfsHelper(unordered_map<int, vector<int>>& roomsMap, unordered_set<int>& visited, int visiting)
+    void visitRoom(unordered_map<int, vector<int>>& roomsMap, unordered_set<int>& visited, int visiting)
     {
         if (visited.count(visiting)) return;
 
         visited.insert(visiting);
         for (int x : roomsMap[visiting])
-            dfsHelper(roomsMap, visited, x);
+            visitRoom(roomsMap, visited, x);
     }
 
     bool canVisitAllRooms(vector<vector<int>>& rooms)
@@ -54,7 +54,7 @@ public:
             i++;
         }
         
-        dfsHelper(roomsMap, visited, 0);
+        visitRoom(roomsMap, visited, 0);
 
         for (int i = 0; i < n; i++)
             if (!visited.count(i)) return false;
