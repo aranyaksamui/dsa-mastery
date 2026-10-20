@@ -58,7 +58,7 @@ public:
             for (int neighbor : neighbors)
                 maxValHeap.push(vals[neighbor]);
 
-            // Maintain a count variable to take top k elements from the heap
+            // Maintain a count variable to take top k elements from the heap exclusive of negatives
             int maxSum = vals[center];
             int count = 0;
             while (!maxValHeap.empty() && count < k)
