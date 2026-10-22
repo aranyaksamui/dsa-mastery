@@ -1,3 +1,7 @@
+/*
+    LeetCode: 2497. Maximum Star Sum of a Graph
+*/
+
 
 #include <bits/stdc++.h>
 
