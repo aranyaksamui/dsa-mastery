@@ -28,92 +28,68 @@ void fast_io()
 // Solution Class (Like LeetCode)
 
 class Solution
-{
-private:
-    vector<vector<int>>& oranges;
-    
+{   
 public:
-    int startRotting(vector<vector<int>>& nodeInfo, int row, int col, int time, int& currCount)
-    {
-        if (oranges[row][col] < 2 || oranges[row][col] != 2) return INT_MAX;
-
-        queue<int> rotQueue;
-        rotQueue.push(nodeInfo[row][col]);
-
-        int insertions = 1;
-
-        while(!rotQueue.empty())
-        {
-            int latestRot = rotQueue.front();
-            rotQueue.pop();
-            
-            if (oranges[row][col] != 2) continue;
-
-            // Down
-            if (row + 1 < oranges.size() && oranges[row + 1][col] == 1)
-                rotQueue.push(nodeInfo[row + 1][col]);
-            
-            // Up
-            if (row - 1 >= 0 && oranges[row - 1][col] == 1)
-                rotQueue.push(nodeInfo[row - 1][col]);
-            
-            // Right
-            if (col + 1 < oranges[0].size() && oranges[row][col + 1] == 1)
-                rotQueue.push(nodeInfo[row][col + 1]);
-            
-            // Left
-            if (col - 1 >= 0 && oranges[row][col - 1] == 1)
-                rotQueue.push(nodeInfo[row][col - 1]);
-            
-            
-        }
-    }
-
     int orangesRotting(vector<vector<int>>& grid)
     {
-        oranges = grid;
+        int rows = grid.size();
+        int cols = grid[0].size();
 
-        // Count the no. of oranges and maintain a map for the notes and it's information
-        int count = 0;
-        vector<vector<int>> nodeInfo(oranges.size(), vector<int>(oranges[0].size(), -1));
-        
-        for (int r = 0; r < oranges.size(); r++)
+        // Process the grid and ignore empty cells, count fresh oranges and push rotten oranges to a queue
+        queue<pair<int, int>> rotQueue;
+        int freshCount = 0;
+        for (int r = 0; r < rows; r++)
         {
-            for (int c = 0; c < oranges[r].size(); c++)
+            for (int c = 0; c < cols; c++)
             {
-                if (oranges[r][c] < 1) continue;
-
-                nodeInfo[r][c] = count;
-                count++;
+                if (grid[r][c] == 0) continue;
+                else if (grid[r][c] == 1) freshCount++;
+                else if (grid[r][c] == 2) rotQueue.push({r, c});
             }
         }
 
-        // // DEBUG
-        // for (pair<int, NodeInfo*> p : nodeMap)
-        // {
-        //     cout << p.first << endl;
-        //     cout << "r: " << p.second->r << "c: " << p.second->c << "val: " << p.second->rotVal << endl;
-        // }
-        // // DEBUG
+        if (freshCount == 0) return 0;
 
-        int minTime = INT_MAX;
+        int minutes = 0;
 
-        // Multisource BFS
-        for (int r = 0; r < grid.size(); r++)
+        // Direction vector for concise boundary checking
+        vector<int> dRow = {-1, 1, 0, 0};
+        vector<int> dCol = {0, 0, -1, 1};
+
+        // Find the minimum time for all oranges to rot
+        while (!rotQueue.empty() && freshCount > 0)
         {
-            for (int c = 0; c < grid[r].size(); c++)
-            {
-                if (grid[r][c] < 2) continue;
+            int currRot = rotQueue.size();
+            minutes++;
 
-                int currCount = 1;
-                int timeTaken = startRotting(nodeInfo, r, c, 0, currCount);
-                
-                if (count == currCount)
-                    minTime = min(minTime, timeTaken);
+            // Process the no. of rotten oranges currently in queue in the current minute
+            for (int i = 0; i < currRot; i++)
+            {
+                pair<int, int> f = rotQueue.front();
+                rotQueue.pop();
+
+                int row = f.first;
+                int col = f.second;
+
+                // Process the 4 diagonals of the current rotten orange
+                for (int d = 0; d < 4; d++)
+                {
+                    int nRow = row + dRow[d];
+                    int nCol = col + dCol[d];
+
+                    if (nRow >= 0 && nRow < rows && nCol >= 0 && nCol < cols && grid[nRow][nCol] == 1)
+                    {
+                        grid[nRow][nCol] = 2;
+                        freshCount--;
+                        rotQueue.push({nRow, nCol});
+                    }
+                }
             }
         }
 
-        return 0;
+        if (freshCount > 0) return -1;
+
+        return minutes;
     }
 
     void solve()
