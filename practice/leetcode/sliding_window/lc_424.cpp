@@ -65,11 +65,11 @@ public:
     void solve()
     {
         // My test case code
-        string s = "AABABBA";
-        int k = 1;
+        // string s = "AABABBA";
+        // int k = 1;
 
-        // string s = "AABABBACCCDDDDCAAAADBBA";
-        // int k = 3;
+        string s = "AABABBACCCDDDDCAAAADBBA";
+        int k = 3;
 
         // string s = "ABAB";
         // int k = 2;
