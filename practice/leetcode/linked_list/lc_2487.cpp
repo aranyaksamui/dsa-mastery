@@ -1,4 +1,6 @@
-// 2487. Remove Nodes From Linked List
+/*
+    LeetCode: 2487. Remove Nodes From Linked List
+*/
 
 #include <iostream>
 #include <vector>
@@ -36,14 +38,78 @@ void fast_io()
 class Solution
 {
 public:
+    ListNode* reverseList(ListNode* head)
+    {
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+        ListNode* next = nullptr;
+
+        while (curr != nullptr)
+        {
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
+        
+        return head;
+    }
+
     ListNode* removeNodes(ListNode* head)
     {
+        if (head == nullptr) return nullptr;
         
+        if (head->next == nullptr) return head;
+
+        // First reverse the list
+        head = reverseList(head);
+        
+        // Traversed the reversed list
+        ListNode* curr = head;
+        int maxVal = curr->val;
+        while(curr != nullptr)
+        {
+            if (curr->next == nullptr)
+            {
+                curr = curr->next;
+            }
+            // Remove the next node with less value than current and rewrite it with next of next
+            else if (curr->next->val < maxVal)
+            {
+                curr->next = curr->next->next;
+            }
+            // If next node value is bigger or equal we have new max keep it
+            else
+            {
+                maxVal = curr->next->val;
+                curr = curr->next;
+            }
+        }
+
+        // Reverse the updated list again
+        head = reverseList(head);
+
+        return head;
     }
 
     void solve()
     {
         // My test case code
+        ListNode* fourth = new ListNode(8);
+        ListNode* third = new ListNode(3, fourth);
+        ListNode* second = new ListNode(13, third);
+        ListNode* first = new ListNode(2, second);
+        ListNode* head = new ListNode(5, first);
+
+        ListNode* temp = removeNodes(head);
+
+        while (temp != nullptr)
+        {
+            cout << temp->val << " ";
+            temp = temp->next;
+        }
         
         cout << endl << "System ready." << endl;
     }
