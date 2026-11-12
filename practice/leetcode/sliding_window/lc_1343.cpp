@@ -2,7 +2,7 @@
     LeetCode: 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 */
 
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 #include <iostream>
 #include <vector>
