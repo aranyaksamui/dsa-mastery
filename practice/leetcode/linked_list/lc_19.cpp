@@ -36,19 +36,24 @@ void fast_io()
 class Solution
 {
 private:
+    // Maintain a count to track the nth node from last
     int count = 0;
 public:
     ListNode* removeNode(ListNode* node)
     {
+        // Base case: Return nullptr if we reach the next of last node
         if (node == nullptr)
             return nullptr;
 
+        // Progressive case: pass node of next and while returning connect it back to next of current
         node->next = removeNode(node->next);
         
+        // Reduce count till and if it's 0 then we reached the nth node from last, return node->next instead of current node to delete the link for the previous node
         count--;
         if (count == 0)
             return node->next;
 
+        // In normal case just return the current node for next of previous
         return node;
     }
 
@@ -56,13 +61,17 @@ public:
     {
         if (head->next == nullptr && n == 1) return nullptr;
 
+        // Assign a copy of n
         count = n;
 
+        // Create a dummy node
         ListNode dummy(-1);
         dummy.next = head;
 
+        // Start traversing the list till last with a dummy node before head
         removeNode(&dummy);
 
+        // Return next node of dummy as head
         head = dummy.next;
         return head;
     }
