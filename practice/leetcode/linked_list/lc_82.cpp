@@ -73,7 +73,7 @@ public:
             fast = fast->next;
         }
 
-        // Sew the last pointer to fast to prevent unhandled duplicates at the last
+        // Sew the slow pointer to fast to prevent unhandled duplicates at the end
         slow->next = fast;
 
         head = dummy.next;
